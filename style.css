@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 900px;
+    background-color: black;
+    margin: auto;
+    border-radius: 20px;
+    border: 4px solid #3b3b3b;
+    box-shadow: 0 0 25px 5px white;
+}
+#input button {
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border: 2px solid #3b3b3b;
+    border-radius: 15px;
+    background-color: #222222;
+    font-weight: 1000;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px 2px #3b3b3b;
+}
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#input button.operator {
+    background-color: rgb(54, 144, 255);
+}
+
+#input button.do, #input button.delete {
+    background-color: #636363;
+}
+
+#input button.delete {
+    width: 260px;
+}
+.display {
+    height: 140px;
+    width: 540px;
+    margin: 20px;
+    background-color: #222222;
+    border-radius: 20px;
+}
