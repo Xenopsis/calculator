@@ -1,0 +1,29 @@
+Pseudo Code for calculator
+
+define first and second number
+define first operator
+
+create the operate function that will take 2 numbers and an operator
+    define a current value
+    if a statement that uses .reduce to fo a function if button value = class
+
+    add an event listener for all buttons with click
+    
+    if button value is +
+    return current value
+        .reduce((total, current) total + current, 0)
+
+    if button value is -
+    returm curremt value
+        .reduce((total, current) total - current, 0)
+    
+    if button value is *
+    return current value 
+        .reduce((total, current) total * current, 1)
+
+    if button value is /
+    return current value
+        .reduce((total, current) total / current, 1)
+
+    if button value is = 
+    return current value
