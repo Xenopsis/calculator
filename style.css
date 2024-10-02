@@ -42,12 +42,14 @@ body {
     background-color: rgb(54, 144, 255);
 }
 
-#input button.do, #input button.delete {
+#input button.do {
     background-color: #636363;
 }
 
 #input button.delete {
     width: 260px;
+    background-color: #636363;
+
 }
 .display {
     display: flex;

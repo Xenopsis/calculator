@@ -88,7 +88,7 @@ buttons.forEach((button) => {
 
                 operate()
                 firstOperator += valueSign
-                
+
                 console.log(result)
             }
         } else if (button.value === '='){
@@ -100,6 +100,13 @@ buttons.forEach((button) => {
             secondNumber = ""
             firstOperator = ""
             result = ""
+        } else if (button.value === '.'){
+            if (firstOperator === ""){
+                firstNumber += button.value
+
+            } else if (firstOperator !== ""){
+                secondNumber += button.value
+            }
         }
        
     })

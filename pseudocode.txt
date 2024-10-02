@@ -8,7 +8,7 @@ create the operate function that will take 2 numbers and an operator
     if a statement that uses .reduce to fo a function if button value = class
 
     add an event listener for all buttons with click
-    
+
     if button value is +
     return current value
         .reduce((total, current) total + current, 0)
@@ -27,3 +27,9 @@ create the operate function that will take 2 numbers and an operator
 
     if button value is = 
     return current value
+
+
+if delete,
+    if secondnumber !== ''
+    if firstoperator !== ''
+    if firstnumber !== ''
